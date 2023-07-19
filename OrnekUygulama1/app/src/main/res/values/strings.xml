@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">OrnekUygulama1</string>
+    <string name="app_name">Bilmece Oyunu</string>
+    <string name="bilmece_metni">Çarşıdan aldım 1 tane eve geldim 40 tane?</string>
+    <string name="bilmece_cevabi">Nar</string>
 </resources>

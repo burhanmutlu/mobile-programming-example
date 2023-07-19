@@ -2,39 +2,57 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/bilmece"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Burhan Mutlu"
+        android:text="@string/bilmece_metni"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.047" />
+        app:layout_constraintVertical_bias="0.047"
+        tools:text="@string/bilmece_metni" />
 
     <Button
+        android:id="@+id/cevapButon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="kayıt yapınız"
+        android:layout_marginBottom="15dp"
         android:fontFamily="serif"
-        android:textSize="20dp"
-        android:padding="20dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp" />
+        android:text="Cevabı Göster"
+        android:textSize="20dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/cevap"
+        android:layout_width="275dp"
         android:layout_height="wrap_content"
-        android:text="Hoş Geldiniz" />
+        android:fontFamily="sans-serif"
+        android:text="Cevap"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:typeface="monospace" />
 
+    <TextView
+        android:id="@+id/basmaSayisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basma Sayısı" />
 
+    <TextView
+        android:id="@+id/renkKodlari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Renk Kodları" />
 
 
 </LinearLayout>
